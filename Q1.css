@@ -1,0 +1,33 @@
+html,body{
+width: 100%;
+
+}
+
+#menu {
+  /* border: 1px solid #ccc ; */
+  height: auto;
+  /* width: 100%; */
+  min-width: 150px;
+}
+
+#data-panel{
+  /* border: 1px solid #ccc; */
+  height: auto;
+}
+
+.list-group-item {
+  color: #000;
+}
+
+.list-group-item:hover{
+  cursor: pointer;
+  color: #000;
+  background-color: #ddd;
+}
+
+.active ,.active:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color: #007bff;
+}
+
